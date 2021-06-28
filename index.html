@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+        <link rel="stylesheet" type="text/css" href="estilos/responsivo.css">
+        <link rel="stylesheet" type="text/css" href="estilos/sobremi.css">
+        <link rel="stylesheet" type="text/css" href="estilos/mejoresacrobacias.css">
+        <link rel="stylesheet" type="text/css" href="estilos/responsivo_mejores_acrobacias.css">
+        <link rel="stylesheet" type="text/css" href="estilos/misaccesorios.css">
+        <link rel="stylesheet" type="text/css" href="estilos/responsivo_mis_accesorios.css">
+        <link rel="stylesheet" type="text/css" href="estilos/contacto.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">  
+        <title>Mr Steele</title>
+    </head>
+    <body>
+        <header>
+            <div id="nombre">
+                <h1>Mr Steele</h1>
+                <p>freestyle FPV</p>
+            </div>
+            <div id="navegacion">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Sobre mi</a>
+                        </li>
+                        <li>
+                            <a href="mejores_acrobacias.html">Mejores acrobacias</a>
+                        </li>
+                        <li>
+                            <a href="mis_accesorios.html">Mis accesorios</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>   
+        <section>
+
+        </section>
+        <footer>
+            <p>Copyright - Elias Miranda - 2021</p>
+        </footer> 
+        <script src="js/jquery.min.js"></script>
+        <script>
+            $("a").click(function(evento){
+                evento.preventDefault();
+                var url_buscar=$(evento.target).attr("href")
+                $("section").load(url_buscar);
+            })
+            $("section").load("inicio.html")
+
+        </script>   
+    </body>
+</html>
