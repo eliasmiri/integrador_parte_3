@@ -1,0 +1,15 @@
+#caja{
+    display:flex;
+    flex-flow: column; 
+    padding-top: 2.5%;
+}
+.interior{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0px 2.5% 2.5%;
+
+}
+.parrafo{
+    display: flex;
+    align-items: center;
+}

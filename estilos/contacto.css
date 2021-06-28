@@ -1,0 +1,28 @@
+ul{
+    padding: 0px;
+}
+#redes ul{
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-around;
+}
+#redes li{
+    list-style-type: none; 
+    width: 10%;
+}
+#redes img{
+    width: 100%;
+}
+#ethix img{
+    width: 100%;
+    
+}
+#ethix ul{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+#ethix li{
+    width: 30%;
+    list-style-type: none;
+}

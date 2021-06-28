@@ -1,0 +1,21 @@
+img, video {
+    max-width: 100%;
+}
+@media screen and (min-width: 550px) and (max-width: 1080px){
+footer p {
+    color: green
+}
+header{
+    display:inline-block;
+    margin:0px
+}
+#nombre{
+    margin:0px;
+    padding: 0px
+}
+#navegacion{
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+}
